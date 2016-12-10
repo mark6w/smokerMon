@@ -28,6 +28,7 @@ def id():
     <h1>''' + variables['name'] + '''</h1>
         <h2>Probe#1 = ''' + str(variables['probe1']) + ''' ''' + variables['probe1Status'] + '''
         <h2>Probe#2 = ''' + str(variables['probe2']) + ''' ''' + variables['probe2Status'] + '''
+        <h3>Battery = ''' + str(variables['batterylvl']) + '''%
   </body>
 </html>
 '''
